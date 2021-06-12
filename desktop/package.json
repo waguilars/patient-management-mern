@@ -1,11 +1,19 @@
 {
   "name": "desktop",
   "version": "1.0.0",
-  "description": "",
+  "description": "Electron desktop app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Wilson Aguilar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waguilars/patient-management-mern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/waguilars/patient-management-mern/issues"
+  },
+  "homepage": "https://github.com/waguilars/patient-management-mern#readme"
 }
