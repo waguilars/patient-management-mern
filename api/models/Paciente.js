@@ -14,6 +14,10 @@ const pacienteSchema = new Schema({
     type: Schema.Types.String,
     trim: true,
   },
+  telefono: {
+    type: Schema.Types.String,
+    trim: true,
+  },
   hora: {
     type: Schema.Types.String,
     trim: true,
