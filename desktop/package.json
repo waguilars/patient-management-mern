@@ -4,7 +4,10 @@
   "description": "Electron desktop app",
   "main": "index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist:linux": "electron-builder -l",
+    "dist:mac": "electron-builder -m",
+    "dist:win": "electron-builder -w"
   },
   "author": "Wilson Aguilar",
   "license": "ISC",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/waguilars/patient-management-mern#readme",
   "devDependencies": {
-    "electron": "^13.1.2"
+    "electron": "^13.1.2",
+    "electron-builder": "^22.11.7"
   }
 }
