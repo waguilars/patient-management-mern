@@ -1,10 +1,10 @@
 {
-  "name": "desktop",
+  "name": "desktop-patient-management",
   "version": "1.0.0",
   "description": "Electron desktop app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "author": "Wilson Aguilar",
   "license": "ISC",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/waguilars/patient-management-mern/issues"
   },
-  "homepage": "https://github.com/waguilars/patient-management-mern#readme"
+  "homepage": "https://github.com/waguilars/patient-management-mern#readme",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  }
 }
